@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="car hub's .css">
+
+    <!-- google signin in library -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+    <div class="loginin box">
+<h2>Login</h2>
+        <p><form id="loginform"></form>
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required></p>
+
+      <p><label>Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required><br><br>
+
+        <button type="login">login</button></p>
+    <p>or</p>
+    
+    
+ 
+    <!-- google login button -->
+     <div id="google-signin"
+     data-client_id="YOUR_CLIENT_ID_HERE"
+     data-callback="handlecredentialresponse">
+    </div>
+    <div class="g_id_signin" data-size="large"></div>
+</div>
+
+    
+    <script src="script.js"></script>   
+
+</body>
+</html>

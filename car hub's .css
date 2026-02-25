@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     transition: all 5ms;
+background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b67b7b, #1a1717);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a1eef0, #080808); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    
+
+}
+
+
+.car-container{
+    background-color: rgba(rgb(61, 59, 59), rgb(74, 75, 74), rgb(98, 98, 100), alpha);
+    width: 90%;
+    
+}
+
+.car-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    transition: ease-in 300ms;
+   
+}
+
+
+.car-card:hover {
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+
+
+.car-container img {
+    width: auto;
+    max-width: 90%;
+    height: 800px;
+    max-width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+         .car-card button {background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50  51%, #bdc3c7  100%)}
+         .car-card button {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+
+
+          }
+
+          .car-card button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #584e4eff;
+            text-decoration: aqua;
+             box-shadow: 0 0 20px #ce1515;
+          }
+          
+
+          .car-info {
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            text-align: center;
+            width: 60%;
+            height: 60%;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border: 1px solid #fff;
+            border-radius: 15px;
+          }
+
+          .interior-img-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            justify-content: center;
+            width: 90%;
+          }
+
+.interior-img-container img {
+      margin-right: 5%;
+      margin-top: 5%;
+    width: 180px;
+    height: 180px;  
+}
+
+ .hidden {
+            display: none;
+          }
+
+  /* contact's css
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  button .contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #bb9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(100, 96, 96, 0.1)0.1;
+  }
+
+  button .contact:hover {
+    background-color: #6c7072;
+  } */
+
+  /* login form */
+
+  /*body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;  fallback for old browsers 
+    font-family: Arial;
+  }
+  .login-box{
+    background:rgba;
+    padding:25px;
+    width:300px;
+    text-align: center;
+    border-radius: 8px;
+    
+  }
+ 
+  .login-box input ,button {
+padding:10px;
+margin:10px 0;
+
+  }
+button{
+    background: #6c7072;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #4c4e50;
+  } 
+    */
+ container-fluid{
+  background-color: #333333;
+  border-color: #eee;
+  width: 30px;
+height: auto;
+ }
+
+  .login-btn {
+    background-color: #ebedf3;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #4f4f4f;
+    transform: translateY(-2px);
+}
+
+
+.back-btn {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    right:200px;
+}
+
+.back-btn:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}

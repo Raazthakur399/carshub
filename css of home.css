@@ -1,0 +1,288 @@
+body {
+ background-color: rgb(101, 108, 111);
+
+}
+/* first slilder's css */
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-content: center;
+}
+
+
+.slider {
+  width: 300px;
+  overflow: hidden;
+
+}
+
+
+.card {
+  display: none;
+  background: rgb(163, 233, 245);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(115, 201, 214, 0.2);
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.card.active {
+  display: block;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* second slider's css */
+.slider-second-slider-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-content: center;
+}
+.slider-second-slider {
+  width: 300px;
+  overflow: hidden;
+}
+.card-2 {
+  display: none;
+  background: rgb(163, 233, 245);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(115, 201, 214, 0.2);
+  text-align: center;
+  padding-bottom: 15px;
+}
+.card.active-2 {
+  display: block;
+}
+.card-2 img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+.card-2 h3 {
+  margin: 10px 0 5px;
+}
+.card-2 p {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #555;
+}
+.nav-btn-2{
+  background: #000000;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* end of second slider */
+/* second slider's css and third slider's css are same as the first slider's css because they are using
+ the same class names. So, there is no need to write separate css for them. We can use the same css for 
+ all the sliders by using the same class names. */
+
+/* interior's css */
+.slider-third-slider-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-content: center;
+}
+
+.slider-third-slider {
+  width: 300px;
+  overflow: hidden;}
+.interior-card {
+   display: none;
+  }
+  .card-3 {
+  display: none;
+  background: rgb(163, 233, 245);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(115, 201, 214, 0.2);
+  text-align: center;
+  padding-bottom: 15px;
+}
+.card.active-3 {
+  display: block;
+} 
+.card-3 img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+.card-3 h3 {
+  margin: 10px 0 5px;
+}
+.card-3 p {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #555;
+}
+.nav-btn-3 {
+  background: #c64141;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/* end of third slider  */
+.nav-btn {
+  background: #c64141;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.features{
+
+ background-color: #cb4444;
+ width: auto;
+border-color: beige;
+border-radius: 70%;
+gap: 20px;     /*space between the buttons*/
+display:flex;
+
+
+}
+.btn{
+border-color:#d2f413 ;
+padding: 10px 20px;
+cursor: pointer;
+transition: 0.3s;
+justify-content: center;
+}
+.btn:hover{
+  background: #8b8989;
+  box-shadow: #f2f7fa;
+}
+
+.car-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    transition: ease-in 300ms;
+   
+}
+
+
+.car-card:hover {
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+
+
+.car-container img {
+    width: auto;
+    max-width: 90%;
+    height: 800px;
+    max-width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+         .car-card button {background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50  51%, #bdc3c7  100%)}
+         .car-card button {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+
+
+          }
+
+          .car-card button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #584e4eff;
+            text-decoration: aqua;
+             box-shadow: 0 0 20px #ce1515;
+          }
+          
+
+          .login-btn {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 90%;
+
+}
+
+.login-btn:hover {
+    background-color: #f1f3f8;
+    transform: translateY(-2px);
+     box-shadow : 0 4px 8px rgba(174, 50, 50, 0.936);
+}
+
+.contact-btn {
+    background-color: #3d3f3f;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 80%;
+    justify-content: center;
+    text-align: bottom;}
+   
+.contact-btn:hover {
+    background-color: #f1f3f8;
+    transform: translateY(-2px);
+     box-shadow : 0 4px 8px rgba(225, 60, 60, 0.2);
+}
+
+
+.back-btn {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
