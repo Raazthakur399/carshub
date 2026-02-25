@@ -203,10 +203,20 @@ height: auto;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    right:200px;
+    border: 1px solid black;
 }
 
 .back-btn:hover {
     transform: translateX(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
 }
